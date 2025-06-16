@@ -1,7 +1,7 @@
 import argparse
-from useractivity import get_user_activity, display_event_summary
+from .useractivity import get_user_activity, display_event_summary
 
-def main():
+def cli():
     parser = argparse.ArgumentParser(description="GitHub User Activity")
     parser.add_argument("username", help="Github username")
     args = parser.parse_args()
@@ -10,4 +10,4 @@ def main():
     display_event_summary(user_events)
 
 if __name__ == "__main__":
-    main()
+    cli()
