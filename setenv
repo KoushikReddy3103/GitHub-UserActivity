@@ -1,9 +1,9 @@
 if [ -d ".github-venv" ];
 then
-        $PWD/.github-venv/Scripts/activate
+        source $PWD/.github-venv/Scripts/activate
         pip -q install -r requirements.txt
 else
         python -m venv .github-venv
-        $PWD/.github-venv/Scripts/activate
+        source $PWD/.github-venv/Scripts/activate
         pip -q install -r requirements.txt
 fi
