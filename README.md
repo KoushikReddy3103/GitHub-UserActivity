@@ -2,6 +2,8 @@
 
 This project makes use of GitHub REST API to fetch and display the user activity for the prescribed username. The username is given as an input.
 
+project URL: https://roadmap.sh/projects/github-user-activity
+
 ## Getting Started
 
 To setup the project, clone the forked repository on your local
